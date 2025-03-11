@@ -1,7 +1,7 @@
 import React from 'react';
 
 function News() {
-  return <h1>News Page</h1>;
+  return       <button className="btn btn-primary">Hello, DaisyUI!</button>;
 }
 
 export default News;

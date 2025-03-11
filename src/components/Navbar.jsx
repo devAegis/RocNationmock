@@ -12,8 +12,8 @@ function Navbar() {
         <li><Link to="/News">News</Link></li>
         <li><Link to="/Discover">Discover</Link></li>
         <li><Link to="/About">About</Link></li>
-        <li><Link to="/ShopePlanes">Shope Planes</Link></li>
-        <li><Link to="/Stores">Stores</Link></li>
+        <li><Link to="/ShopPlanes">Shop Planes</Link></li>
+        <li><Link to="/Store">Store</Link></li>
 
       </ul>
     </nav>
