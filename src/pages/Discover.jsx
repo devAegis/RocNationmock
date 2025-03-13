@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Discover() {
-  return <h1>Discover Page</h1>;
+  return (
+    <div>
+      
+    </div>
+  )
 }
 
 export default Discover;

@@ -10,27 +10,27 @@ function Navbar() {
         <li className='hover:border-b-2 border-white h-[40px]'>
           <Link to="/" className=''>Home</Link>
         </li>
-        <li className='relative group'>
+        <li className='relative group hover:border-b-2 border-white h-[40px]'>
           <Link to="/Music" className=''>Music</Link>
           {/* Dropdown Menu */}
-          <div className='absolute w-screen ml-[-658px] align-left hidden bg-blue-300 text-white mt-[50px]  h-[40vh] p-2 shadow-lg group-hover:block '>
+          <div className='absolute w-screen ml-[-658px] align-left hidden bg-black text-white mt-[50px]  h-[50vh] p-2 shadow-lg group-hover:block z-50 transition-all duration-300 opacity-0 group-hover:opacity-100'>
            
           </div>
         </li>
-        <li className='relative group'>
+        <li className='relative group hover:border-b-2 border-white h-[40px]'>
           <Link to="/Sports" className=' '>Sports</Link>
           {/* Dropdown Menu */}
-          <div className='absolute w-screen ml-[-739px] align-left hidden bg-blue-300 text-white mt-[50px]  h-[40vh] p-2 shadow-lg group-hover:block '>
+          <div className='absolute w-screen ml-[-739px] align-left hidden bg-black text-white mt-[50px]  h-[50vh] p-2 shadow-lg group-hover:block z-50'>
            
           </div>
         </li>
 
-        <li className='relative group'>
+        <li className='relative group hover:border-b-2 border-white h-[40px]'>
           <Link to="/News" className=''>
             News
           </Link>
           {/* Dropdown Menu */}
-          <div className='absolute w-screen ml-[-820px] align-left hidden bg-blue-300 text-white mt-[50px]  h-[40vh] p-2 shadow-lg group-hover:block '>
+          <div className='absolute w-screen ml-[-820px] align-left hidden bg-black text-white mt-[50px]  h-[50vh] p-2 shadow-lg group-hover:block z-50'>
            
           </div>
         </li>
