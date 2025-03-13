@@ -54,12 +54,49 @@ function Home() {
           <p>Listen & Subscribe</p>
         </div>
 
-        <div className='flex justify-between m-auto mt-[10px] w-[80%]'>
-          <div className='bg-blue-300 h-[60vh] w-1/3'>
-            
+        <div className='flex justify-between m-auto mt-[10px] w-[80%] '>
+          {/* First Child Div */}
+          <div
+            className='bg-blue-300 h-[60vh] w-1/3 bg-cover bg-center relative '
+            style={{ backgroundImage: "url('https://images.pexels.com/photos/844928/pexels-photo-844928.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+          >
+          <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+            <div className='absolute flex items-center justify-between p-6 bottom-0 left-0 right-0 h-[120px] bg-transparent hover:bg-black transition-all duration-300'>
+              <p className='text-[30px] font-bold text-white '>Music</p>
+              <p className='text-[18px] text-white'>INFINITY SONGS</p>
+            </div>
           </div>
-          <div className='bg-black h-[60vh] w-1/3'></div>
-          <div className='bg-blue-400 h-[60vh] w-1/3'></div>
+            {/* Transparent Overlay at the Bottom */}
+          </div>
+
+          {/* Second Child Div */}
+          <div
+            className='bg-blue-300 h-[60vh] w-1/3 bg-cover bg-center relative '
+            style={{ backgroundImage: "url('https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+          >
+          <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+            <div className='absolute flex items-center justify-between p-6 bottom-0 left-0 right-0 h-[120px] bg-transparent hover:bg-black transition-all duration-300'>
+                <p className='text-[30px] font-bold text-white '>Sport</p>
+                <p className='text-[18px] text-white'>ARSENAL</p>
+            </div>
+          </div>
+            {/* Transparent Overlay at the Bottom */}
+          </div>
+
+          {/* Third Child Div */}
+          <div
+            className='bg-blue-300 h-[60vh] w-1/3 bg-cover bg-center relative '
+            style={{ backgroundImage: "url('https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+          >
+          <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+          <div className='absolute flex items-center justify-between p-6 bottom-0 left-0 right-0 h-[120px] bg-transparent hover:bg-black transition-all duration-300'>
+                <p className='text-[30px] font-bold text-white '>Discover</p>
+                <p className='text-[18px] text-white'>MOONWALK</p>
+            </div>
+          </div>
+            {/* Transparent Overlay at the Bottom */}
+          </div>
+
         </div>
       </section>
 
