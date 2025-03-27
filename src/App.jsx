@@ -12,13 +12,14 @@ import Discover from './pages/Discover.jsx';
 import ShopPlanes from './pages/ShopPlanes.jsx';
 import Store from './pages/Store.jsx';
 import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 import './App.css'
 
 function App() {
 
   return (
       <Router>
-      <Navbar/>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -29,6 +30,7 @@ function App() {
           <Route path="/ShopPlanes" element={<ShopPlanes />} />
           <Route path="/Store" element={<Store />} />
         </Routes>
+        <Footer/>
       </Router>
   )
 }
