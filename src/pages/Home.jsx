@@ -100,13 +100,119 @@ function Home() {
         </div>
       </section>
 
-      <section></section>
+      <section>
+        <div className='flex justify-between m-auto mt-[60px] w-[80%]'>
+          <p>About ROCKNATION</p>
+          <p>Listen & Subscribe</p>
+        </div>
 
-      <section></section>
+        <div className='m-auto mt-[10px] w-[80%] bg-blue-50 h-[90vh] grid grid-cols-2 grid-rows-2'>
+          {/* First Grid Item */}
+          <div className='bg-blue-300 flex justify-center items-center  transition-all duration-300 bg-cover bg-center relative'>
+            <div
+              className='bg-blue-300 h-full w-1/2 bg-cover bg-center relative '
+              style={{ backgroundImage: "url('https://images.pexels.com/photos/844928/pexels-photo-844928.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+            >
+            <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+              <div className='absolute flex items-center justify-between p-6 bottom-0 left-0 right-0 h-[120px] bg-transparent hover:bg-black transition-all duration-300'>
+                <p className='text-[30px] font-bold text-white '>Music</p>
+                <p className='text-[18px] text-white'>INFINITY SONGS</p>
+              </div>
+            </div>
+              {/* Transparent Overlay at the Bottom */}
+            </div>
 
-      <section></section>
+            <div
+              className='bg-blue-300 h-full w-1/2 bg-cover bg-center relative '
+              style={{ backgroundImage: "url('https://images.pexels.com/photos/844928/pexels-photo-844928.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+            >
+            <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+              <div className='absolute flex items-center justify-between p-6 bottom-0 left-0 right-0 h-[120px] bg-transparent hover:bg-black transition-all duration-300'>
+                <p className='text-[30px] font-bold text-white '>Music</p>
+                <p className='text-[18px] text-white'>INFINITY SONGS</p>
+              </div>
+            </div>
+              {/* Transparent Overlay at the Bottom */}
+            </div>
+        </div>
 
-      <section></section>
+          {/* Second Grid Item */}
+          <div className='bg-blue-400 flex justify-center items-center hover:bg-blue-300 transition-all duration-300'>
+            <p>Grid Item 2</p>
+          </div>
+
+          {/* Third Grid Item */}
+          <div className='bg-blue-500 flex justify-center items-center hover:bg-blue-400 transition-all duration-300'>
+            <p>Grid Item 3</p>
+          </div>
+
+          {/* Fourth Grid Item */}
+          <div className='bg-blue-600 flex justify-center items-center hover:bg-blue-500 transition-all duration-300'>
+            <div
+              className='bg-blue-300 h-full w-1/2 bg-cover bg-center relative '
+              style={{ backgroundImage: "url('https://images.pexels.com/photos/844928/pexels-photo-844928.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+            >
+            <div className='absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-60 transition-all duration-300'>
+              
+            </div>
+              {/* Transparent Overlay at the Bottom */}
+            </div>
+
+            <div
+              className='bg-blue-300 h-full w-1/2 bg-cover bg-center relative '
+              style={{ backgroundImage: "url('https://images.pexels.com/photos/844928/pexels-photo-844928.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
+            >
+            
+              {/* Transparent Overlay at the Bottom */}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='h-[100vh]'>
+
+      <div className='flex justify-between m-auto mt-[130px] w-[80%]'>
+          <p>ANNOUNCEMENTS</p>
+          <a href=''>READ ALL</a>
+          </div>
+
+      <div className='flex m-auto mt-[20px] w-[80%] bg-blue-50 h-[90vh]'>
+      <div className='bg-blue-400 w-[30%] text-[18px] p-8 flex flex-col justify-center '>
+        <h1 className=''>NEW UPDATES</h1>
+        <p className='font-bold mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores fugit sequi iure ipsam sed temporibus! </p>
+        <a href="" className='mt-4'>LEARNMORE</a>
+      </div>
+      <div className='bg-blue-500 w-[70%]'></div>
+      </div>
+
+      </section>
+
+      <section className='h-[100vh]'>
+
+        <div className='flex justify-between m-auto mt-[140px] w-[80%]'>
+            <p>Our Philanthropy</p>
+            <a href=''>READ ALL</a>
+          </div>
+
+        <div className='flex m-auto mt-[20px] w-[80%] bg-blue-50 h-[90vh]'>
+        <div className='bg-blue-400 w-[30%]'>
+          <h1 className=''>NEWS LETTER</h1>
+          <p className='font-bold mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores fugit sequi iure ipsam sed temporibus! </p>
+          <a href="" className='mt-4'>REGISTER</a>
+        </div>
+        <div className='bg-blue-500 w-[70%]'></div>
+        </div>
+
+      </section>
+      <section className='h-[100vh] flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center space-y-12'>
+          <p>JOIN US</p>
+          <p> Sign up for the Roc Nation newsletter</p>
+          <label>Enter email address</label>
+
+          <input type='email' className='w-[400px] h-[50px] border-b-2 border-black'/>
+        </div>
+      </section>
 
       <section></section>
 
