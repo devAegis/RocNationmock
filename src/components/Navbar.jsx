@@ -17,13 +17,7 @@ function Navbar() {
            
           </div>
         </li>
-        <li className='relative group hover:border-b-2 border-white h-[40px]'>
-          <Link to="/Sports" className=' '>Sports</Link>
-          {/* Dropdown Menu */}
-          <div className='absolute w-screen ml-[-739px] align-left hidden bg-black text-white mt-[50px]  h-[50vh] p-2 shadow-lg group-hover:block z-50'>
-           
-          </div>
-        </li>
+        
 
         <li className='relative group hover:border-b-2 border-white h-[40px]'>
           <Link to="/News" className=''>
